@@ -7,5 +7,7 @@ jobs:
     steps:
     - name: hello-world
       run: echo "hey hey $NAME"
+    - name: hello-gh-user
+      run: echo "hiya $GITHUB_ACTOR"
     env:
       NAME: "Bob Blah Blah" 
