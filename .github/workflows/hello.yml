@@ -10,4 +10,4 @@ jobs:
     - name: hello-gh-user
       run: echo "hiya $GITHUB_ACTOR"
     env:
-      NAME: "Bob Blah Blah" 
+      NAME: "Meepy Weepy" 
